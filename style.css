@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
 /* First-section */
@@ -10,7 +11,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: darksalmon;
+  background-color: rgb(137, 196, 204);
 }
 
 .first-section p {
@@ -40,45 +41,25 @@
   text-align: center;
   margin-bottom: 70px;
 }
-
 .flower-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   justify-items: center;
   align-items: center;
 }
-
-.flower-card1 {
+.flower-card {
   text-align: center;
-  width: 414px;
+  width: 384px;
   height: 471px;
-  background-color: aqua;
+  background-color: rgb(177, 240, 240);
   border-top-right-radius: 100px;
   border-top-left-radius: 100px;
 }
-.flower-card2 {
-  text-align: center;
-  width: 414px;
-  height: 471px;
-  background-color: pink;
-  border-top-right-radius: 100px;
-  border-top-left-radius: 100px;
-}
-.flower-card3 {
-  text-align: center;
-  width: 414px;
-  height: 471px;
-  background-color: lightgreen;
-  border-top-right-radius: 100px;
-  border-top-left-radius: 100px;
-}
-
 .card-name {
   text-decoration: underline;
 }
 
 /* Third-Section */
-
 .third-section {
   display: flex;
   justify-content: center;
@@ -86,16 +67,13 @@
   background-color: lightcyan;
   margin-top: 100px;
 }
-
 .third-section p {
   width: 634px;
   margin-top: 10px;
 }
-
 .third-section img {
   height: 300px;
 }
-
 .third-section button {
   background: #e55473;
   color: #ffffff;
@@ -104,4 +82,70 @@
   width: 150px;
   height: 44px;
   font-weight: bold;
+}
+
+/* Fourth-Section */
+.fourth-section {
+  margin-top: 100px;
+}
+.fourth-section-header {
+  margin-bottom: 70px;
+  text-align: center;
+}
+.fourth-section-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+.card {
+  width: 300px;
+  height: 350px;
+}
+
+/* Fifth-Section */
+.fifth-section {
+  margin-top: 100px;
+}
+.fifth-section-elements {
+  background-image: url(/Images/Rectangle\ 9.png);
+  width: 50%;
+  padding: 120px;
+  margin: auto;
+  text-align: center;
+}
+
+/* Extra-section */
+.extra-section {
+  margin-top: 100px;
+  background-color: rgb(58, 46, 46);
+  height: 500px;
+}
+.extra-elements {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  align-items: center;
+  padding-top: 50px;
+}
+.extra-section img {
+  width: 280px;
+  height: 360px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: black;
+  height: 200px;
+  padding-top: 100px;
+  margin-top: 100px;
+}
+footer h1 {
+  color: white;
+}
+footer p {
+  color: white;
+}
+footer span {
+  color: gray;
 }
