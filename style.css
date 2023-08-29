@@ -1,0 +1,34 @@
+/* universal */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* First-section */
+
+.first-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darksalmon;
+}
+
+.first-section p {
+  width: 634px;
+  margin-top: 10px;
+}
+
+.first-section img {
+  height: 500px;
+}
+
+.first-section button {
+  background: #e55473;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 44px;
+}
+
+/* Second-Section */
