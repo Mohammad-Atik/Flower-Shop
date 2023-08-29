@@ -29,6 +29,79 @@
   border-radius: 5px;
   width: 150px;
   height: 44px;
+  font-weight: bold;
 }
 
 /* Second-Section */
+.second-section {
+  margin-top: 100px;
+}
+.second-section-header {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.flower-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+}
+
+.flower-card1 {
+  text-align: center;
+  width: 414px;
+  height: 471px;
+  background-color: aqua;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.flower-card2 {
+  text-align: center;
+  width: 414px;
+  height: 471px;
+  background-color: pink;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+.flower-card3 {
+  text-align: center;
+  width: 414px;
+  height: 471px;
+  background-color: lightgreen;
+  border-top-right-radius: 100px;
+  border-top-left-radius: 100px;
+}
+
+.card-name {
+  text-decoration: underline;
+}
+
+/* Third-Section */
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lightcyan;
+  margin-top: 100px;
+}
+
+.third-section p {
+  width: 634px;
+  margin-top: 10px;
+}
+
+.third-section img {
+  height: 300px;
+}
+
+.third-section button {
+  background: #e55473;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 44px;
+  font-weight: bold;
+}
